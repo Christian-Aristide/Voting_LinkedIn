@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); /* Divise en 4 colonnes et ajuste automatiquement */
+        gap: 10px; /* Espacement entre les éléments */
+    }
+
+    .content {
+        text-align: center;
+        overflow: hidden; /* Empêche les images de déborder */
+    }
+
+    .content img {
+        max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="asset/photo_nomine/coach_expert/kingue.jpg" alt="">
+            <h3>Medi Fulgence ...</h3>
+        </div>
+    </div>
+</body>
+</html>
