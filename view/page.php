@@ -26,7 +26,12 @@
 </style>
 <body>
     <div class="container">
-        <?php include "../function/script.php"; ?>
+        <?php
+            include "../function/includes/script1.php";
+            include "../function/includes/script2.php"; 
+            include "../function/includes/script3.php"; 
+            include "../function/includes/script4.php"; 
+        ?>
     </div>
 
 </body>

@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['nom_utilisateur'] = $user['nom_utilisateur'];
 
             // Rediriger l'utilisateur vers le tableau de bord après la connexion
-            header("Location: page.php");
+            header("Location: section.php");
             exit();
         } else {
             $message = "Adresse e-mail ou mot de passe incorrect.";

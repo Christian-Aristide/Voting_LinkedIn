@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Section 2</title>
     <script src="https://kit.fontawesome.com/f31faae043.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   </head>
   <style>
     * {
@@ -1037,18 +1039,9 @@ footer form button:hover {
                 <div class="next"></div> 
                 
                 <div class="bottom">
-                  <div class="candidate">
-                    <div class="candPic">
-                      <div class="smcandPic"></div>
-                    </div>
-                    <div class="candiInfos">
-                      <h2>Divine BLE</h2>
-                      <div class="count">0</div>
-                      <button class="candBtn">VOTEZ ICI</button>
-                    </div>
-                  </div>
+                  <?php include "../function/includes/script1.php"; ?>
                   
-                  <div class="candidate">
+                  <!-- <div class="candidate">
                     <div class="candPic">
                         <div class="smcandPic"></div>
                     </div>
@@ -1079,7 +1072,7 @@ footer form button:hover {
                       <div class="count">0</div>
                       <button class="candBtn">VOTEZ ICI</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </section>
     
@@ -1093,23 +1086,14 @@ footer form button:hover {
                 <div class="next"></div>
 
                 <div class="bottom">
-                  <div class="candidate">
-                    <div class="candPic">
-                      <div class="smcandPic"></div>
-                    </div>
-                    <div class="candiInfos">
-                      <h2>Marie Ella KOUAKOU</h2>
-                      <div class="count">0</div>
-                      <button class="candBtn">VOTEZ ICI</button>
-                    </div>
-                  </div>
+                  <?php include "../function/includes/script2.php"; ?>
                   
-                  <div class="candidate">
+                  <!-- <div class="candidate">
                     <div class="candPic">
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                    <h2>Aude Anicette KOKO</h2>
+                    <h2>Godwin SOOLA</h2>
                     <div class="count">0</div>
                     <button class="candBtn">VOTEZ ICI</button>
                     </div>
@@ -1120,7 +1104,7 @@ footer form button:hover {
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                      <h2>Manon Arielle DEBLEZA</h2>
+                      <h2>Camille ETE</h2>
                       <div class="count">0</div>
                       <button class="candBtn">VOTEZ ICI</button>
                     </div>
@@ -1131,11 +1115,11 @@ footer form button:hover {
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                      <h2>Rachidat BROUAHIMA</h2>
+                      <h2>Audrey BAMBA</h2>
                       <div class="count">0</div>
                       <button class="candBtn">VOTEZ ICI</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </section>
     
@@ -1149,23 +1133,14 @@ footer form button:hover {
                 <div class="next"></div>
 
                 <div class="bottom">
-                  <div class="candidate">
-                    <div class="candPic">
-                      <div class="smcandPic"></div>
-                    </div>
-                    <div class="candiInfos">
-                      <h2>Binnie Bintou CISSE</h2>
-                      <div class="count">0</div>
-                      <button class="candBtn">VOTEZ ICI</button>
-                    </div>
-                  </div>
+                  <?php include "../function/includes/script3.php"; ?>
                   
-                  <div class="candidate">
+                  <!-- <div class="candidate">
                     <div class="candPic">
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                    <h2>Vincent KADIO</h2>
+                    <h2>Godwin SOOLA</h2>
                     <div class="count">0</div>
                     <button class="candBtn">VOTEZ ICI</button>
                     </div>
@@ -1176,7 +1151,7 @@ footer form button:hover {
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                      <h2>Yannick BOKA</h2>
+                      <h2>Camille ETE</h2>
                       <div class="count">0</div>
                       <button class="candBtn">VOTEZ ICI</button>
                     </div>
@@ -1187,11 +1162,11 @@ footer form button:hover {
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                      <h2>Frederick Williams KINGUE</h2>
+                      <h2>Audrey BAMBA</h2>
                       <div class="count">0</div>
                       <button class="candBtn">VOTEZ ICI</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </section>
     
@@ -1205,23 +1180,14 @@ footer form button:hover {
                 <div class="next"></div>
 
                 <div class="bottom">
-                  <div class="candidate">
-                    <div class="candPic">
-                      <div class="smcandPic"></div>
-                    </div>
-                    <div class="candiInfos">
-                      <h2>Grâce ADJE</h2>
-                      <div class="count">0</div>
-                      <button class="candBtn">VOTEZ ICI</button>
-                    </div>
-                  </div>
+                  <?php include "../function/includes/script4.php"; ?>
                   
-                  <div class="candidate">
+                  <!-- <div class="candidate">
                     <div class="candPic">
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                    <h2>Raïssa KOUADIO</h2>
+                    <h2>Godwin SOOLA</h2>
                     <div class="count">0</div>
                     <button class="candBtn">VOTEZ ICI</button>
                     </div>
@@ -1232,7 +1198,7 @@ footer form button:hover {
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                      <h2>Yasmine SIBAHI</h2>
+                      <h2>Camille ETE</h2>
                       <div class="count">0</div>
                       <button class="candBtn">VOTEZ ICI</button>
                     </div>
@@ -1243,11 +1209,11 @@ footer form button:hover {
                         <div class="smcandPic"></div>
                     </div>
                     <div class="candiInfos">
-                      <h2>Joseph N'DRI</h2>
+                      <h2>Audrey BAMBA</h2>
                       <div class="count">0</div>
                       <button class="candBtn">VOTEZ ICI</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </section>
           </div> 
