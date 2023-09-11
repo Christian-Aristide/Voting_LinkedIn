@@ -27,10 +27,8 @@
 <body>
     <div class="container">
         <?php
-            include "../function/includes/script1.php";
-            include "../function/includes/script2.php"; 
-            include "../function/includes/script3.php"; 
-            include "../function/includes/script4.php"; 
+            session_start(); // Démarrer la session
+            echo $_SESSION['id']
         ?>
     </div>
 

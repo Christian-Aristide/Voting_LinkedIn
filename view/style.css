@@ -1,0 +1,1050 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#sectionOne,
+#sectionTwo,
+#sectionThree,
+#sectionFour,
+#sectionFive,
+#sectionSix,
+#sectionSeven {
+    z-index: 1;
+}
+
+#sectionOne {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+/*#sectionOne*/
+nav {
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+    z-index: 3;
+}
+
+/*#sectionOne*/
+nav img {
+    width: max(17.5%, 130px);
+}
+
+nav>div {
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: black;
+    font-size: 1rem;
+    /*today*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.1s ease-in-out;
+}
+
+nav ul a:hover {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#infos a:last-child {
+    background: hsl(213, 63%, 43%);
+    padding: 0.7rem 1rem;
+    border-radius: 2.5rem;
+    color: white;
+}
+
+/*today*/
+#infos a:last-child:hover {
+    font-size: 0.8rem;
+}
+
+#first {
+    background: url("../asset/shutterstock_2337392913.webp") no-repeat;
+    align-items: center;
+    display: flex;
+}
+
+/* today */
+#first,
+#second {
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#second {
+    display: none;
+    background: url("../asset/or-linkedin.webp") no-repeat;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+#second>div>button {
+    background: hsl(213, 63%, 43%);
+    padding: 0.7rem 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    border-radius: 2.8rem;
+    border: none;
+    cursor: pointer;
+    /*today*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*today*/
+    transition: all 0.1s ease-in-out;
+}
+
+#second>div>button:hover {
+    font-size: 1.2rem;
+}
+
+/* today */
+/* today */
+#sectionOne h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+}
+
+/* today */
+#sectionOne p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2rem;
+}
+
+#first>div:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*today */
+#first>div:first-of-type a {
+    padding: 0.7rem 1rem;
+    border-radius: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 1.5rem;
+    transition: all 0.1s ease-in-out;
+}
+
+#first>div:first-of-type a:hover {
+    font-size: 0.8rem;
+}
+
+/*today */
+#first>div:first-of-type a:first-of-type {
+    background: hsl(213, 63%, 43%);
+    color: white;
+}
+
+/*today */
+#first>div:first-of-type a:last-of-type {
+    background: white;
+    color: red;
+}
+
+/*today */
+#first>div:first-of-type a:last-of-type span {
+    font-weight: 700;
+}
+
+/* today */
+.btnSlide {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.oCircle {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem;
+}
+
+.oSmCircle {
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background: white;
+}
+
+#f .oSmCircle,
+#s .oSmCircle {
+    width: 100%;
+    height: 100%;
+}
+
+/*today*/
+#sectionTwo {
+    width: 100%;
+    min-height: 99vh;
+    background-color: hsl(213, 63%, 43%);
+    display: flex;
+    align-items: center;
+}
+
+#sectionTwo h1 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#sectionTwo h1 span {
+    padding: 0;
+    margin: 0;
+    border-bottom: 0.4rem solid white;
+    position: relative;
+}
+
+#sectionTwo ul {
+    margin: 2.5rem 0;
+}
+
+.bcircle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.scircle {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#sectionTwo li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+#sectionTwo .text>p {
+    color: hsl(56, 82%, 49%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 1.5rem 0;
+    line-height: 2rem;
+}
+
+#sectionTwo .illus img {
+    width: 100%;
+}
+
+#sectionTwo .text>div:last-child>div {
+    display: flex;
+    align-items: center;
+}
+
+#sectionTwo .text>div:last-child>div p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    max-width: 70%;
+}
+
+#sectionTwo .text>div:last-child>div i {
+    color: white;
+    font-size: 3.5rem;
+    margin-right: 1rem;
+}
+
+#slide {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+
+#sectionThree,
+#sectionFour,
+#sectionFive,
+#sectionSix,
+#sectionSeven {
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.prev,
+.next {
+    display: block;
+    position: absolute;
+    opacity: 0.5;
+    width: 0;
+    border-style: solid;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 2rem;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.prev:hover,
+.next:hover {
+    opacity: 1;
+}
+
+.prev {
+    border-right-color: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-left-width: 0;
+    border-bottom-color: transparent;
+    left: 1rem;
+
+}
+
+.next {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-right-width: 0;
+    border-bottom-color: transparent;
+    border-left-color: white;
+    right: 1rem;
+
+}
+
+#sectionThree {
+    background: url('../asset/award-nom.webp') no-repeat;
+    background-size: 100% 100%;
+}
+
+#sectionThree .top,
+#sectionFour .top,
+#sectionFive .top,
+#sectionSix .top,
+#sectionSeven .top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+#sectionThree .top img,
+#sectionFour .top img,
+#sectionFive .top img,
+#sectionSix .top img,
+#sectionSeven .top img {
+    display: block;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+#sectionThree .top h1,
+#sectionFour .top h1,
+#sectionFive .top h1,
+#sectionSix .top h1,
+#sectionSeven .top h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: -1rem;
+    position: relative;
+}
+
+#sectionThree .bottom,
+#sectionFour .bottom,
+#sectionFive .bottom,
+#sectionSix .bottom,
+#sectionSeven .bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sectionThree .bottom a {
+    display: inline-block;
+    border: 1px solid red;
+}
+
+#sectionThree .bottom .categorie {
+    width: max(23%, 300px);
+    /* margin-bottom: 5rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 8rem;
+}
+
+#sectionThree .bottom .categorie .catCircle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid hsl(45, 100%, 50%);
+    background-color: white;
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: hsl(243, 100%, 11%);
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+#sectionThree .bottom .categorie .catCircle:hover {
+    top: 1rem;
+    width: 240px;
+    height: 240px;
+}
+
+#sectionThree .bottom .categorie img {
+    /*width: 250px;*/
+    width: 100%;
+}
+
+#sectionFour,
+#sectionFive,
+#sectionSix,
+#sectionSeven {
+    background: url("../asset/award-vote.webp") no-repeat;
+    background-size: cover;
+    padding-bottom: 4rem;
+}
+
+#sectionFour .bottom .candidate,
+#sectionFive .bottom .candidate,
+#sectionSix .bottom .candidate,
+#sectionSeven .bottom .candidate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sectionFour .bottom .candidate .candPic,
+#sectionFive .bottom .candidate .candPic,
+#sectionSix .bottom .candidate .candPic,
+#sectionSeven .bottom .candidate .candPic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid hsl(47, 100%, 50%);
+    padding: 0.7rem;
+    outline: 3px solid white;
+    outline-offset: 1rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+}
+
+#sectionFour .bottom .candidate .candPic .smcandPic,
+#sectionFive .bottom .candidate .candPic .smcandPic,
+#sectionSix .bottom .candidate .candPic .smcandPic,
+#sectionSeven .bottom .candidate .candPic .smcandPic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#sectionFour .bottom .candidate:first-child .candPic .smcandPic {
+    background: url("../asset/photo_nomine/producteur_contenu/divine.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionFour .bottom .candidate:nth-child(2) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/producteur_contenu/godwin.JPG") no-repeat;
+    background-size: 100%;
+}
+
+#sectionFour .bottom .candidate:nth-child(3) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/producteur_contenu/camille.JPG") no-repeat;
+    background-size: 100%;
+}
+
+#sectionFour .bottom .candidate:nth-child(4) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/producteur_contenu/audrey.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionFour .bottom .candidate .candiInfos,
+#sectionFive .bottom .candidate .candiInfos,
+#sectionSix .bottom .candidate .candiInfos,
+#sectionSeven .bottom .candidate .candiInfos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+#sectionFive .bottom .candidate:first-child .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contenu_rh/marie.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#sectionFive .bottom .candidate:nth-child(2) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contenu_rh/anicette.JPG") no-repeat;
+    background-size: 100%;
+}
+
+#sectionFive .bottom .candidate:nth-child(3) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contenu_rh/arielle.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionFive .bottom .candidate:nth-child(4) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contenu_rh/rachidat.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSix .bottom .candidate:first-child .candPic .smcandPic {
+    background: url("../asset/photo_nomine/coach_expert/binnie.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSix .bottom .candidate:nth-child(2) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/coach_expert/kadio.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSix .bottom .candidate:nth-child(3) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/coach_expert/boka.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSix .bottom .candidate:nth-child(4) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/coach_expert/kingue.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSeven .bottom .candidate:first-child .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contributeur_linkedin/grace.JPG") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSeven .bottom .candidate:nth-child(2) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contributeur_linkedin/raissa.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSeven .bottom .candidate:nth-child(3) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contributeur_linkedin/yasmine.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#sectionSeven .bottom .candidate:nth-child(4) .candPic .smcandPic {
+    background: url("../asset/photo_nomine/contributeur_linkedin/joseph.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.candiInfos h2 {
+    font-size: 1.2rem;
+}
+
+.candiInfos .count {
+    font-size: 1.5rem;
+    display: inline-block;
+    /* padding: 0.2rem 4rem; */
+    border: 2px solid white;
+    border-radius: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    height: 2.3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.candiInfos .candBtn {
+    height: 2.3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(47, 100%, 50%);
+    border: none;
+    border-radius: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.candiInfos .candBtn:hover {
+    height: 2.1rem;
+    width: 9rem;
+    font-size: 1.3rem;
+}
+
+footer {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 1), rgb(73, 1, 1));
+    padding: 1rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer>img {
+    width: 150px;
+}
+
+footer>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: hsl(0, 100%, 46%);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 1.3rem 0;
+}
+
+footer .contact>div:not(:last-child),
+footer .info li {
+    margin-bottom: 0.6rem;
+}
+
+footer .contact i {
+    color: hsl(0, 100%, 46%);
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+footer .social i {
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+footer .social i:hover {
+    font-size: 1.5rem;
+}
+
+footer .info>div {
+    display: flex;
+    align-items: flex-start;
+    /*gap: 6rem;*/
+}
+
+footer .info>div ul:first-child {
+    margin-right: 6rem;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer form input {
+    border: none;
+    background: hsl(0, 10%, 41%);
+    margin-bottom: 0.8rem;
+    caret-color: hsl(0, 0%, 100%);
+    color: white;
+}
+
+footer form input:focus {
+    outline: none;
+}
+
+footer form input,
+footer form button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    width: 13rem;
+}
+
+footer form input::placeholder {
+    color: white;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer form input::-moz-placeholder {
+    color: white;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer form input::-webkit-input-placeholder {
+    color: white;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer form input:-ms-input-placeholder {
+    color: white;
+    opacity: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer form button {
+    background: hsl(0, 100%, 46%);
+    color: white;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+footer form button:hover {
+    font-size: 0.9rem;
+    width: 12rem;
+}
+
+#fBottom {
+    padding-top: 0.6rem;
+    border-top: 2px solid hsl(0, 0%, 100%);
+    margin-top: 2rem;
+}
+
+
+
+
+@media only screen and (min-width:1000px) {
+    .mob {
+        display: none;
+    }
+
+    /*#sectionOne*/
+    nav {
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 2rem;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    nav ul a {
+        margin-left: 1.5rem;
+    }
+
+    #infos a:last-child {
+        margin-left: 1rem;
+    }
+
+    #sectionOne h1 {
+        font-size: 3.2rem;
+    }
+
+    #sectionOne p {
+        font-size: 1.5rem;
+    }
+
+    #second {
+        background-size: 100% 100%;
+    }
+
+    #second>div:first-child {
+        width: 50%;
+        padding-right: 1.5rem;
+    }
+
+    #sectionTwo {
+        padding: 3rem 2.5rem;
+    }
+
+    #sectionTwo h1 {
+        font-size: 3.2rem;
+    }
+
+    #sectionTwo .text {
+        max-width: 60%;
+    }
+
+    #sectionTwo .illus {
+        width: 40%;
+        overflow: hidden;
+    }
+
+    #sectionTwo .text>div:last-child {
+        display: flex;
+        align-items: center;
+    }
+
+    #sectionThree .top h1,
+    #sectionFour .top h1,
+    #sectionFive .top h1,
+    #sectionSix .top h1,
+    #sectionSeven .top h1 {
+        font-size: 1.8rem;
+    }
+
+    #sectionFour .top h1::before,
+    #sectionFive .top h1::before,
+    #sectionSix .top h1::before,
+    #sectionSeven .top h1::before {
+        content: "";
+        width: 4rem;
+        height: 2px;
+        background-color: hsl(45, 100%, 50%);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(calc(-1 * (100% + 1rem)), -50%);
+    }
+
+    #sectionFour .top h1::after,
+    #sectionFive .top h1::after,
+    #sectionSix .top h1::after,
+    #sectionSeven .top h1::after {
+        content: "";
+        width: 4rem;
+        height: 2px;
+        background-color: hsl(45, 100%, 50%);
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(calc(1 * (100% + 1rem)), -50%);
+    }
+
+    #sectionThree .top img,
+    #sectionFour .top img,
+    #sectionFive .top img,
+    #sectionSix .top img,
+    #sectionSeven .top img {
+        width: 35%;
+    }
+
+    #sectionThree .bottom,
+    #sectionFour .bottom,
+    #sectionFive .bottom,
+    #sectionSix .bottom,
+    #sectionSeven .bottom {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sectionFour .bottom .candidate,
+    #sectionFive .bottom .candidate,
+    #sectionSix .bottom .candidate,
+    #sectionSeven .bottom .candidate {
+        width: max(23%, 300px);
+        margin-bottom: 5rem;
+    }
+
+    footer>div {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+
+@media only screen and (max-width:999px) {
+
+    /*#sectionOne*/
+    nav {
+        padding: 0 1em;
+    }
+
+    nav div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #toggleMenu {
+        cursor: pointer;
+    }
+
+    nav div i {
+        font-size: 1.5rem;
+        color: hsl(213, 63%, 43%);
+    }
+
+    nav ul {
+        display: none;
+        width: calc(99vw);
+        /*calc(100vw - 2rem);*/
+        flex-direction: column;
+        position: absolute;
+        top: calc(100% + 1rem);
+        right: -1em;
+        background: rgba(255, 255, 255, 0.349);
+        padding: 1rem;
+        border-radius: 4px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    nav ul a:not(:last-child) {
+        margin-bottom: 0.7rem;
+    }
+
+    #sectionOne h1,
+    #sectionOne p {
+        text-align: center;
+    }
+
+    #sectionOne h1 {
+        font-size: 2rem;
+    }
+
+    #sectionOne p {
+        font-size: 1.2rem;
+    }
+
+    #first>div:first-of-type {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #first>div:first-of-type a:first-of-type {
+        margin-bottom: 1.5rem;
+    }
+
+    #second {
+        background-size: cover;
+    }
+
+    #second>div:first-child {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sectionTwo {
+        flex-direction: column-reverse;
+        padding: 2rem 1rem;
+    }
+
+    #sectionTwo h1 {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    #sectionTwo .illus {
+        margin: 0 auto;
+        max-width: min(100%, 30rem);
+        margin-bottom: 2rem;
+    }
+
+    #sectionTwo .text>div:last-child>div {
+        margin-bottom: 1.5rem;
+    }
+
+    #sectionTwo li {
+        font-size: 1rem;
+    }
+
+    #sectionThree .top h1,
+    #sectionFour .top h1,
+    #sectionFive .top h1,
+    #sectionSix .top h1,
+    #sectionSeven .top h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    #sectionThree .top img,
+    #sectionFour .top img,
+    #sectionFive .top img,
+    #sectionSix .top img,
+    #sectionSeven .top img {
+        width: max(90%, 225px)
+    }
+
+    #sectionThree .bottom,
+    #sectionFour .bottom,
+    #sectionFive .bottom,
+    #sectionSix .bottom,
+    #sectionSeven .bottom {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #sectionFour .bottom .candidate,
+    #sectionFive .bottom .candidate,
+    #sectionSix .bottom .candidate,
+    #sectionSeven .bottom .candidate {
+        width: min(90%, 300px);
+        margin-bottom: 5rem;
+    }
+}
