@@ -11,3 +11,4 @@ if (isset($_SESSION['id'])) {
     exit(); // Assurez-vous de sortir du script après la redirection
 }
 ?>
+

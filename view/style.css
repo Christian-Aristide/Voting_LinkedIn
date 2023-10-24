@@ -90,12 +90,15 @@ nav ul a:hover {
     background: hsl(213, 63%, 43%);
     padding: 0.7rem 1rem;
     border-radius: 2.5rem;
-    color: white;
+    color: black;
+    background-color: greenyellow;
 }
 
 /*today*/
 #infos a:last-child:hover {
     font-size: 0.8rem;
+    background: hsl(213, 63%, 43%);
+    color: white;
 }
 
 #first {
@@ -495,7 +498,7 @@ nav ul a:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: 5px solid hsl(47, 100%, 50%);
+    border: 5px solid hwb(47 0% 0%);
     padding: 0.7rem;
     outline: 3px solid white;
     outline-offset: 1rem;
@@ -633,7 +636,7 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: hsl(47, 100%, 50%);
+    background: darkcyan;
     border: none;
     border-radius: 2.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -646,9 +649,9 @@ nav ul a:hover {
 }
 
 .candiInfos .candBtn:hover {
-    height: 2.1rem;
-    width: 9rem;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
+    background-color: greenyellow;
+    color: black;
 }
 
 footer {
@@ -802,7 +805,11 @@ footer form button:hover {
     }
 
     #infos a:last-child {
+        color: black;
         margin-left: 1rem;
+        font-weight: bold;
+        background-color: greenyellow;
+
     }
 
     #sectionOne h1 {

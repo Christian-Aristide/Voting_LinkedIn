@@ -19,6 +19,21 @@
             align-items: center;
             margin: 0;
             padding: 0;
+            background-color: #1B66C9;
+
+        }
+
+        .card-header{
+            background-color: yellowgreen;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .btn-primary{
+            background-color: yellowgreen;
+            text-align: center;
+            color: black;
+            border: none;
         }
 </style>
 <body>

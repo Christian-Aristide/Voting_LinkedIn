@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="fr">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-
+    <title>Document</title>
+    
 </head>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); /* Divise en 4 colonnes et ajuste automatiquement */
+        gap: 10px; /* Espacement entre les éléments */
+    }
 
+    .content {
+        text-align: center;
+        overflow: hidden; /* Empêche les images de déborder */
+    }
+
+    .content img {
+        max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur de leur conteneur */
+    }
+</style>
 <body>
+    <div class="container">
+        <div class="content">
+            <img src="asset/photo_nomine/coach_expert/kingue.jpg" alt="">
+            <h3>Medi Fulgence ...</h3>
+        </div>
+    </div>
 
-    <script>
-        Swal.fire({
-            title: 'Erreur!',
-            text: 'Vous avez déjà voté pour ce candidat dans les 24 dernières heures. Vous ne pouvez pas voter à nouveau pour le moment.',
-            icon: 'error',
-            confirmButtonText: 'OK'
-        }).then(() => {
-            // Rediriger l'utilisateur vers une page de confirmation ou de remerciement
-            window.location.href = '../redirection.php';
-        });
-    </script>
 
+
+    
 </body>
-
 </html>
